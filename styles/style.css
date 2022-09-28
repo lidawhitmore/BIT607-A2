@@ -89,16 +89,21 @@ nav{
     font-weight: bold;
 }
 .mainContentCol1{
-    float: left;
-    width: 50%;
-    padding: 10px;
     display: flex;
+    float: left;
+    padding: 10px;
+    width: 50%;
 }
 .mainContentCol2{
-    padding: 10px;
+    display: flex;
     float: left;
+    padding: 10px;
     width: 50%;
-    display:flex;
+}
+@media screen and (max-width:800px) {
+    .mainContentCol1, .mainContentCol2{
+        width:100%;
+    }
 }
 h1{
     text-transform: uppercase;
@@ -144,7 +149,6 @@ p{
     padding: 0px;
     padding-bottom: 1.5vw;
 }
-
 /*** Footer ***/
 .footer{
     max-height: 100px;
