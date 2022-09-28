@@ -156,10 +156,14 @@ p{
 .footer{
     max-height: 100px;
     min-height: fit-content;
-    font-size: 12px;
+    font-size: 1.5vw;
     color: #3F575A;
     padding: 10px;
 }
-
+@media screen and (min-width: 1200px) {
+    .footer {
+       font-size: 18px;
+    }
+}
 
 
