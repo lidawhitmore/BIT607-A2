@@ -118,6 +118,12 @@ h3{
 }
 p{
     padding:10px;
+    font-size: 1.5vw;
+}
+@media screen and (min-width: 1200px) {
+    p {
+       font-size: 18px;
+    }
 }
 .photo{
     max-width: 80%;
@@ -133,7 +139,6 @@ p{
 }
 .food h3{
     color: #3F575A;
-    font-size: 1.2vw;
     text-transform: uppercase;
     padding: 0px;
     margin: 0px;
