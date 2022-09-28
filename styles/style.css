@@ -148,8 +148,10 @@ p{
 .meal{
     max-width: 80%;
     padding-bottom: 10px;
-    
-
+}
+.photo{
+    max-width: 80%;
+    padding-bottom: 10px;
 }
 
 /*** Footer ***/
